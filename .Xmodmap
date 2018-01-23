@@ -1,0 +1,22 @@
+! --------------------------------
+! switching "<" ">" with "|" "\"
+! -------------------------------
+keycode 49 = less greater less greater guillemotleft guillemotright guillemotleft guillemotright
+keycode 94 = backslash bar grave asciitilde notsign brokenbar
+
+clear control
+clear mod4
+
+!---------------------------------
+! switching cmd_L with ctrl_L
+!---------------------------------
+keycode 133 = Control_L NoSymbol Control_L
+keycode 37 = Super_L NoSymbol Super_L
+keycode 207 = NoSymbol Hyper_L NoSymbol Hyper_L
+
+add mod4 = Super_L
+add mod4 = Super_R
+add mod4 = Hyper_L
+add control = Control_L
+add control = Control_R
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=MacBook keyboard binding
+Comment=Macbook keyboard binding for Ubuntu
+Exec=bash -c "xmodmap ~/.Xmodmap"
+StartupNotify=false
+Terminal=true
+Hidden=false
+X-GNOME-Autostart-enabled=true
